@@ -1,6 +1,9 @@
 import './App.css';
 import freeCodeCampLogo from "./imagenes/freecodecamp-logo.png";
 import Boton from './componentes/Boton';
+import Pantalla from "./componentes/Pantalla";
+import BotonClear from './componentes/BotonClear';
+
 
 function App() {
   return (
@@ -12,6 +15,9 @@ function App() {
         alt="Logo de freecodecamp"/>
     </div>
     <div className="contenedor-calculadora">
+
+      <Pantalla/>
+
       <div className="fila">
         <Boton>1</Boton>
         <Boton>2</Boton>
@@ -37,10 +43,9 @@ function App() {
         <Boton>.</Boton>
         <Boton>/</Boton>
       </div>
-
-
-
-
+      <div className="fila">
+        <BotonClear>Clear</BotonClear>
+      </div>
     </div>
 
     </div>
