@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../hojas-de-estilo/BotonClear.css"
 
 const BotonClear = (props) => (
 
@@ -11,4 +11,4 @@ const BotonClear = (props) => (
     
 )
 
-export default BotonClear;
+export default BotonClear; 
